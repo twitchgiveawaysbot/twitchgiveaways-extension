@@ -1,0 +1,14 @@
+{"version":
+	[
+		{"id":"1","text":"- Production v1.0"},
+		{"id":"2","text":"- Bugs fixed"},
+		{"id":"3","text":"- Bugs fixed"},
+		{"id":"4","text":"- Added a new type of determining the winner in the form of roulette"},
+		{"id":"5","text":"- Added a new criterion for participants: Check for the number of months of the subscriber<br> - Bugs fixed"},
+		{"id":"6","text":"- Changed the system of scrolling sounds<br> - Slightly changed roulette design<br> - Fixed bug with annonce winner"},
+		{"id":"7","text":"- Bugs fixed"},
+		{"id":"8","text":"- Migrated from Twitch Api v3 to Twitch Api v5"},
+		{"id":"9","text":"- Bugs fixed"},
+		{"id":"10","text":"- Opening source"}
+	]
+}

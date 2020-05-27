@@ -1,0 +1,32 @@
+{
+  "name": "Twitch Giveaways",
+  "description": "Giveaways in Twitch chat",
+  "version": "1.312",
+  "manifest_version": 2,
+  "icons": {
+    "16": "images/icon_16x16.png",
+    "48": "images/icon_48x48.png",
+    "128": "images/icon_128x128.png"
+  },
+  "permissions": [
+    "*://*.twitch.tv/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.twitch.tv/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    "main.html"
+  ]
+}

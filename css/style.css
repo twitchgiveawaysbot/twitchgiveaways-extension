@@ -1,0 +1,80 @@
+*{margin:0;padding:0}
+html,body{font-family:'Roboto',sans-serif;height:100%}
+.giveaways{width:100%;height:91%}
+.main{width: 607px;max-height: 100vh;float: left;height: 100%;}
+.chat{margin-left:40px;width:46%;height:100%;display:inline-block}
+.usersList{width:205px;height:100%;overflow-y:auto;overflow-x:hidden;float:left;word-break:break-all}
+.user{margin-left:15px;margin-top:5px;color:#000;font-family:Roboto;font-weight:400}
+.navigator{height:auto;max-height:500px;margin-left:205px}
+.userType{padding:4px 14px;background:#B5E9B5;color:#00993A;margin-left:5px;float:left;border-radius:.3em}
+.userType:first-child{margin-left:13px}
+.userType:hover{cursor:pointer;background:#4F4F4F!important;transform:skew(-10deg);transition:.5s}
+#userTypeLabel{font-family:Roboto;font-weight:400}
+.typeGiveaways{width:58%;margin-left:286px;height:auto;margin-top:40px}
+.keyword{margin-top:10px;border:.8px solid#c3c3c3;border-radius:.1em;margin-left:218px;height:40px}
+.inputkeyword{margin-left:2px;margin-top:7px;width:74%;border:none;float:left}
+.inputkeyword:focus{outline:none}
+#clearList{padding:7px 14px;display:inline-block;vertical-align:middle;color:orange}
+#deleteKeyword{padding:7px 14px;display:inline-block;vertical-align:middle;color:red}
+#clearList:hover{background:orange;color:#fff;cursor:pointer}
+#deleteKeyword:hover{background:red;color:#fff;cursor:pointer}
+.settingMenu{margin-top:10px;margin-left:218px;height:40px}
+#announceWinner{margin-left:15px;font-size:21px;color:gray}
+#announceWinner:hover,#announceWinnerLabel:hover{cursor:pointer}
+#rollBtn{margin-top:15px;width:100%;height:40px;color:#40C06D;font-size:18px;background:#fff;border:1px solid#40C06D}
+#rollBtn:hover{background:#40C06D;color:#fff}
+#rollButMenu{background:#3E444A;border-color:#3E444A}
+#loadAllUsers{background:#128192;border-color:#128192}
+.alertBox{width:64%;height:auto;margin-left:218px;margin-top:46px;margin-bottom:-27px}
+.load{position:absolute;top:300px;left:428px;transform:translate(-50%,-50%);width:100px;height:100px}
+.load hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
+.load :first-child{background:#19A68C;animation-delay:-1.5s}
+.load :nth-child(2){background:#F63D3A;animation-delay:-1s}
+.load :nth-child(3){background:#FDA543;animation-delay:-.5s}
+.load :last-child{background:#193B48}
+@keyframes spin {
+0%,100%{transform:translate(0)}
+25%{transform:translate(160%)}
+50%{transform:translate(160%,160%)}
+75%{transform:translate(0,160%)}
+}
+.winner{width:100%;height:auto;max-height:500px;margin-left:218px}
+#winnerImg{width:100px;height:100px;margin-left:143px;margin-top: 10px;border-radius:50%}
+.subscriber{margin-top:-64px;margin-left:24px}
+.follower{float:right;margin-top:-32px;margin-right:254px}
+.winnerTimer{float:right;margin-top:29px;font-size:25px;margin-right:218px;color:gray}
+.winnerChat{margin-top:77px;width:64%;height:226px;background:#fff;border-top:1px solid #d7d7d7}
+.winnerName{margin-top:1px;font-size:27px;width:63%;text-align:center;color:gray}
+#followLabel{margin-right:4px}
+#mess{font-size:18px;font-family:Roboto;color:#5a5a5a;word-break:break-all;height:auto;width:95%;font-weight:200}
+.chatMessage{margin-top:23px;color:gray;font-size:20px;font-family:Roboto;margin-bottom:-64px}
+.logs{margin-left:215px;width:65%;height:auto;max-width:500px}
+.update{width:100%;height:auto}
+#version{font-size:20px;font-weight:600;color:#000}
+#date{margin-left:0;color:#B0B0B0}
+#spoiler{margin-right:-16px;font-size:25px;color:#B0B0B0;float:right}
+#spoiler:hover{cursor:pointer;color:#000}
+#changeText{color:gray;font-family:Roboto;font-style:italic}
+#updateText{font-size:15px;color:#000;font-family:monospace;font-style:normal}
+.material-switch > input[type="checkbox"]{display:none}
+.material-switch > label{cursor:pointer;height:0;position:relative;width:40px}
+.material-switch > label::before{background:#000;box-shadow:inset 0 0 10px rgba(0,0,0,0.5);border-radius:8px;content:'';height:16px;margin-top:-8px;position:absolute;opacity:.3;transition:all .4s ease-in-out;width:40px}
+.material-switch > label::after{background:#fff;border-radius:16px;box-shadow:0 0 5px rgba(0,0,0,0.3);content:'';height:24px;left:-4px;margin-top:-8px;position:absolute;top:-4px;transition:all .3s ease-in-out;width:24px}
+.material-switch > input[type="checkbox"]:checked + label::before{background:inherit;opacity:.5}
+.material-switch > input[type="checkbox"]:checked + label::after{background:inherit;left:20px}
+.roulette{width:80%;margin-left:10%;height:160px;background:#dadada;border:2px solid #a9a9a9;justify-content:flex-start;overflow:hidden}
+.roulette_items{display:flex;width:9999999px}
+.item{width:315px;height:150px;position:relative;margin-right:5px;margin-top:3px;color:#fff}
+.item:first-child{margin-left:.00464%}
+.text{text-align:center;font-size:25px;margin-top:50px;word-break:break-all}
+.text .username{width:100px;margin:auto}
+.text_points{text-align:center;margin-top:6%}
+.text_points .points{width:100px;margin:auto}
+.winnerBoxModal{width:100%;height:auto;text-align:center}
+#triangle{width: 4px;height: 30px;border-top: 156px solid #f95848;z-index: 1;position: absolute;right: 0;left: 0;margin: auto;}
+#namelot{font-weight:600}
+#namelot,#winnertext,#rounds,#trade,#total{color:#5A5A5A;font-size:1.2em;margin-top:3%}
+#winnertext{font-size:30px;font-weight:600;color:#b54c4c}
+.btnstart{background:#2865E1;color:#fff;border:none;padding:5px;border-radius:.4em;margin-top:3%}
+.btnstart:hover{background:#1A408E;cursor:pointer}
+.modal-dialog{max-width:1200px!important}
