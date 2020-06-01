@@ -1,7 +1,7 @@
 {
   "name": "Twitch Giveaways",
   "description": "Giveaways in Twitch chat",
-  "version": "1.312",
+  "version": "1.313",
   "manifest_version": 2,
   "icons": {
     "16": "images/icon_16x16.png",
